@@ -1,0 +1,88 @@
+@import './core/Variables';
+@import './Horoscopes';
+
+
+.header{
+    margin-top: 30px;
+  
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   .logo{
+    height:70px ;
+   }
+   .h1{
+    font-size:70px ;
+    color: $color-sixth;
+    text-transform: capitalize;
+   }
+}
+.generichoroscope {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 70px;
+	&__divimage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+		
+        &__image{
+        
+            width: 400px;
+            z-index: 1;
+          
+            
+        }
+		
+	}
+    &__text {
+        align-self: center;
+        font-family: $font-second;
+        font-size: 25px;
+        width: 900px;
+       color: $color-third;
+        text-align: justify;
+        flex-direction: column;
+        gap: 30px;
+       .generichoroscope-paragraph{
+        margin-bottom: 10px;
+        &__strong{
+            color:$color-golden;
+        }
+       }
+    }
+    &__h2 {
+        font-family: $font-main;
+        font-size: 50px;
+      color:$color-second;
+  
+      padding: 2px;
+      text-align: center;
+    }
+    &__h3 {
+        font-family: $font-main;
+        font-size: 18px;
+      color:$color-sixth;
+      margin-bottom: 20px;
+      padding: 2px;
+      text-align: center;
+    }
+
+}
+.link {
+	color: $color-second;
+	font-size: 22px;
+    margin-top: 30px;
+	&:hover {
+		color:$color-third;
+		
+	}
+}
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    font-family: $font-main;
+}

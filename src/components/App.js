@@ -1,10 +1,11 @@
-import landing from "../images/landing.png";
+
 import "../styles/App.scss";
 import { Routes, Route, Link,  NavLink } from "react-router-dom";
 import Dev from "./Dev";
 import Graphic from "./Graphic";
 import Video from "./Video";
 import Contact from "./Contact";
+import Main from "./Main";
 function App() {
 	return (
 		<div className="App">
@@ -35,20 +36,13 @@ function App() {
 
 </header>
 			<Link to="/" className="link header">
-			<body className="body">
-				<div className="landing-text">
-					<h3 className="landingtext">dev</h3>
-					<h3 className="landingtext">video</h3>
-					<h3 className="landingtext">graphic</h3>
-				</div>
-				<img className="landing-image" src={landing} alt="" />
-			</body>
+			
 			</Link>
 			
 
 			
 			<Routes>
-			
+			<Route path="/" element={<Main />}></Route>
 				<Route path="/Dev" element={<Dev />}></Route>
 				<Route path="/Graphic" element={<Graphic />}></Route>
 				<Route path="/Video" element={<Video />}></Route>

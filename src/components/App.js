@@ -12,6 +12,11 @@ function App() {
 			<header>
 		
 		<ul className="navlist">
+		<li>
+				<NavLink to="/" className="grid__item-link" id="contact-link">
+					home
+				</NavLink>
+			</li>
 			<li>
 				<NavLink to="/Dev" className="grid__item-link" id="contact-link">
 					dev

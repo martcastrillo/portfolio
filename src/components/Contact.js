@@ -1,11 +1,22 @@
-
+import "../styles/Contact.scss";
+import contact from "../images/contact.png";
 function Contact() {
     return (
-      <div>
+      <div class='contact_div'>
+     <img className="contact_img" src={contact} alt="" />
+        <div class='contact_mini_div'>
+        <h1 className="contact_title">contact</h1>
+        <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam vitae error exercitationem ducimus, impedit eaque mollitia similique ad facere illum qui ipsam libero reprehenderit provident laboriosam vero odio doloribus.</p>
+       
+        <a href="https://vimeo.com/498143722" title="Reel" target="_blank" rel="noreferrer">
+				send me an email</a>
+			
+        </div>
      
-          <h1 class='title'>Título de mi página</h1>
-    
-      </div>
+ 
+           
+        
+       </div>
     );
   }
 

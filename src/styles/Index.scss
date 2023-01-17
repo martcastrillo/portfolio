@@ -5,3 +5,18 @@
 	list-style: none;
 	text-decoration: none;
   }
+  .landingtext{
+	color: #6A7593;
+	font-weight: 600;
+}
+.landing-text{
+	color: #6A7593;
+	font-size: 60px;
+	
+	
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap:50px
+}

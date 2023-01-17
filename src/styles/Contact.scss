@@ -1,0 +1,27 @@
+.contact_div{
+    display:flex;
+    gap: 100px;
+  
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F8E0E0;
+}
+.contact_img{
+    height:  530px;
+}
+.contact_title{
+    text-transform: uppercase;
+    color: #6A7593;
+    font-size: 60px;
+    margin-bottom: 200px;
+}
+.contact_mini_div{
+    display: flex;
+    flex-direction: column;
+  
+    height:  630px;
+}
+.text{
+    width: 300px;
+}

@@ -4,19 +4,58 @@
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-  }
-  .landingtext{
-	color: #6A7593;
-	font-weight: 600;
 }
-.landing-text{
+
+.body {
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+}
+
+
+.landing_offices{
+	display: flex;
+align-items: center;	width: 400px;
+text-align: center;
+font-size: 12px;
+}
+
+.menu-landing {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+	gap: 130px;
+	width: 1100px;
+}
+
+.landing-text-box {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.main_landingtext{
 	color: #6A7593;
-	font-size: 60px;
-	
-	
+	font-size: 40px;
 	text-transform: uppercase;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap:50px
+	
+}
+.landingtext {
+margin-top: -15px;
+	color: #6A7593;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 400;
+
+	
+}
+
+.landing-image {
+	width: 500px;
 }

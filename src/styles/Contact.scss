@@ -34,4 +34,11 @@
     color: white;
     text-align: center;
     width: 200px;
+    &:hover {
+      color: #E074A8;
+        background-color: white;
+	}
+}
+.fa-envelope{
+    margin-left: 12px;
 }

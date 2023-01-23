@@ -3,7 +3,6 @@ import "../styles/Index.scss";
 function Main() {
     return (
       <div>
-     
 	 <body className="body">
 				<div className="menu-landing">
 					<div className="landing-text-box">
@@ -16,7 +15,6 @@ function Main() {
 						</div>
 						
 				</div>
-				
 				<img className="landing-image" src={landing} alt="" />
 				
 				

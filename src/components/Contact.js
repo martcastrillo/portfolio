@@ -9,7 +9,7 @@ function Contact() {
         <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam vitae error exercitationem ducimus, impedit eaque mollitia similique ad facere illum qui ipsam libero reprehenderit provident laboriosam vero odio doloribus.</p>
        
         <a href="mailto:mart.castrillo@gmail.com" title="Reel" target="_blank" rel="noreferrer" className='mailto'>
-				send me an email</a>
+				send me an email<i class="fa-regular fa-envelope"></i></a>
 			
         </div>
      

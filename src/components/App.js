@@ -35,11 +35,11 @@ function App() {
 					video
 				</NavLink>
 			</li>
-			<li>
+		{/* 	<li>
 				<NavLink to="/Graphic" className="grid__item-link" id="contact-link">
 					graphic
 				</NavLink>
-			</li>
+			</li> */}
 			<li>
 				<NavLink to="/Contact"	id="contact-link"  className="grid__item-link"				>
 					contact

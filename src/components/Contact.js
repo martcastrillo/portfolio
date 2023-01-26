@@ -6,7 +6,7 @@ function Contact() {
      <img className="contact_img" src={contact} alt="" />
         <div class='contact_mini_div'>
         <h1 className="contact_title">contact</h1>
-        <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam vitae error exercitationem ducimus, impedit eaque mollitia similique ad facere illum qui ipsam libero reprehenderit provident laboriosam vero odio doloribus.</p>
+        <p className="text">Gracias por llegar hasta aquí. Como has podido ver, la página está en construcción, pero si quieres que colaboremos ya sabes, haz caso al mensajito de más abajo.</p>
        
         <a href="mailto:mart.castrillo@gmail.com" title="Reel" target="_blank" rel="noreferrer" className='mailto'>
 				send me an email<i class="fa-regular fa-envelope"></i></a>

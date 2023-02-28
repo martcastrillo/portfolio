@@ -35,9 +35,9 @@ function Main() {
 							<NavLink to="/Video">
 								<p className="mini_link">video editor</p>
 							</NavLink>
-							<NavLink to="/Graphic"> 
+							{/* <NavLink to="/Graphic"> 
 								<p className="mini_link">graphic design</p>
-						</NavLink>
+						</NavLink> */}
 						</div>
 					</div>
 					<img className="landing-image" src={landing} alt="" />

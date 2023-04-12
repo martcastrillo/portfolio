@@ -1,5 +1,5 @@
 import "../../styles/Project.scss";
-import pantalla1 from "./../../images/pantallas_Capa-1.png";
+import pantalla1 from "../../images/pantallas_Capa-1.png";
 import { Link } from "react-router-dom";
 function RickandMorty() {
   return (

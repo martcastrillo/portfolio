@@ -1,11 +1,11 @@
 import {  Link,} from "react-router-dom";
-import pantalla1 from "./../images/pantallas_Capa-1.png";
-import pantalla2 from "./../images/pantallas_Capa-2.png";
-import pantalla3 from "./../images/pantallas_Capa-3.png";
-import pantalla4 from "./../images/pantallas_Capa-4.png";
-import pantalla5 from "./../images/pantallas_Capa-5.png";
-import pantalla6 from "./../images/pantallas_Capa-6.png";
-import pantalla7 from "./../images/pantallas_Capa-7.png";
+import pantalla1 from "../images/pantallas_Capa-1.png";
+import pantalla2 from "../images/pantallas_Capa-2.png";
+import pantalla3 from "../images/pantallas_Capa-3.png";
+import pantalla4 from "../images/pantallas_Capa-4.png";
+import pantalla5 from "../images/pantallas_Capa-5.png";
+import pantalla6 from "../images/pantallas_Capa-6.png";
+import pantalla7 from "../images/pantallas_Capa-7.png";
 
 
 import "../styles/Dev.scss";

@@ -1,5 +1,5 @@
 import "../../styles/Project.scss";
-import pantalla5 from "./../../images/pantallas_Capa-5.png";
+import pantalla5 from "../../images/pantallas_Capa-5.png";
 import { Link } from "react-router-dom";
 function PlantDomus() {
   return (

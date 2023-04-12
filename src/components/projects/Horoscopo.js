@@ -1,5 +1,5 @@
 import "../../styles/Project.scss";
-import pantalla6 from "./../../images/pantallas_Capa-6.png";
+import pantalla6 from "../../images/pantallas_Capa-6.png";
 import { Link } from "react-router-dom";
 function Horoscopo() {
   return (

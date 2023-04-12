@@ -1,5 +1,5 @@
 import "../../styles/Project.scss";
-import pantalla4 from "./../../images/pantallas_Capa-4.png";
+import pantalla4 from "../../images/pantallas_Capa-4.png";
 import { Link } from "react-router-dom";
 function BreakingBad() {
   return (

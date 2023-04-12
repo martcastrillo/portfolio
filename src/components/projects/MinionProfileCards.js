@@ -1,5 +1,5 @@
 import "../../styles/Project.scss";
-import pantalla3 from "./../../images/pantallas_Capa-3.png";
+import pantalla3 from "../../images/pantallas_Capa-3.png";
 import { Link } from "react-router-dom";
 function MinionProfileCards() {
   return (

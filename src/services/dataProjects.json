@@ -1,0 +1,58 @@
+ [
+    {
+		"prj_id": 01,
+		"name": "Plant Domus",
+		"technologies": "html y css",
+        "img": "./../images/pantallas_Capa-5.png",
+		"url_code": "https://github.com/martscastrillo/plant-domus-landing-page",
+		"url_page": "https://martscastrillo.github.io/plant-domus-landing-page"
+	},
+	{
+		"prj_id": 02,
+		"name": "Git Branch Heros",
+		"technologies": "html y css",
+        "img": "./../images/pantallas_Capa-7.png",
+		"url_code": "https://github.com/martscastrillo/git-branch-heros-landing-page",
+		"url_page": "https://martscastrillo.github.io/git-branch-heros-landing-page/"
+	},
+	{
+		"prj_id": 03,
+		"name": "Breaking Bad Searcher",
+		"technologies": "javascript",
+        "img": "./../images/pantallas_Capa-4.png",
+		"url_code": "https://github.com/martscastrillo/breaking-bad-seeker",
+		"url_page": "https://martscastrillo.github.io/breaking-bad-seeker/"
+	},
+	{
+		"prj_id": 04,
+		"name": "Minions Profile Cards",
+		"technologies": "javascript",
+        "img": "./../images/pantallas_Capa-3.png",
+		"url_code": "https://github.com/martscastrillo/minions-profile-cards",
+		"url_page": "https://martscastrillo.github.io/minions-profile-cards/"
+	},
+	{
+		"prj_id": 05,
+		"name": "Awesome Profile Cards",
+		"technologies": "react",
+        "img": "./../images/pantallas_Capa-2.png",
+		"url_code": "https://github.com/martscastrillo/awesome-profile-cards",
+		"url_page": "https://martscastrillo.github.io/awesome-profile-cards/"
+	},
+	{
+		"prj_id": 06,
+		"name": "Rick And Morty Character Finder",
+		"technologies": "react",
+        "img": "./../images/pantallas_Capa-1.png",
+		"url_code": "https://github.com/martscastrillo/rick-and-morty-character-finder",
+		"url_page": "https://martscastrillo.github.io/rick-and-morty-character-finder/"
+	},
+	{
+		"prj_id": 07,
+		"name": "Horóscopo",
+		"technologies": "react",
+        "img": "./../images/pantallas_Capa-6.png",
+		"url_code": "https://github.com/martscastrillo/horoscope",
+		"url_page": "https://martscastrillo.github.io/horoscope/"
+	},
+]

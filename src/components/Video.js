@@ -2,7 +2,7 @@ import "../styles/Video.scss";
 import video from "../images/video.png";
 function Video() {
     return (
-      <div class='video_div'>
+      <div className='video_div'>
      
         
      <h1 className="video_title">video</h1>

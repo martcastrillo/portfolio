@@ -13,11 +13,11 @@ function Dev() {
 	return (
 		<div className="dev_div">
 			<h1 className="dev_title">dev</h1>
-		{/* 	<div className='dev_filter'><h2 className='dev_filter_option'>html - css</h2>
+{/* 		<div className='dev_filter'><h2 className='dev_filter_option'>html - css</h2>
 			<h2 className='dev_filter_option'>java script</h2>
 			<h2 className='dev_filter_option'>react</h2>
 			<h2 className='dev_filter_option'>node js - express</h2>
-			</div> */}
+			</div>  */}
 			
 			<div className='line_project'>
 				<div className='proyect_div'>
@@ -27,9 +27,9 @@ function Dev() {
 					<img className="dev_img" src={pantalla5} alt="" /></Link>
 					<span>
 						
-						<a href="https://github.com/martscastrillo/plant-domus-landing-page"><i class="fa-solid fa-code dev_logo"></i>
+						<a href="https://github.com/martscastrillo/plant-domus-landing-page"><i className="fa-solid fa-code dev_logo"></i>
 </a>
-						<a href="https://martscastrillo.github.io/plant-domus-landing-page/"><i class="fa-regular fa-window-restore dev_logo"></i></a>
+						<a href="https://martscastrillo.github.io/plant-domus-landing-page/"><i className="fa-regular fa-window-restore dev_logo"></i></a>
 					</span>
 
 				</div>
@@ -37,8 +37,8 @@ function Dev() {
 				<Link to="/Dev/GitBranchHeros" className="link header">
 					<img className="dev_img" src={pantalla7} alt="" /></Link>
 					<span>
-						<a href="https://github.com/martscastrillo/git-branch-heros-landing-page"><i class="fa-solid fa-code dev_logo"></i></a>
-						<a href="https://martscastrillo.github.io/git-branch-heros-landing-page/ "><i class="fa-regular fa-window-restore dev_logo"></i></a>
+						<a href="https://github.com/martscastrillo/git-branch-heros-landing-page"><i className="fa-solid fa-code dev_logo"></i></a>
+						<a href="https://martscastrillo.github.io/git-branch-heros-landing-page/"><i className="fa-regular fa-window-restore dev_logo"></i></a>
 					</span>
 
 				</div>
@@ -47,8 +47,8 @@ function Dev() {
 				<img className="dev_img" src={pantalla4} alt="" /></Link>
 				
 					<span>
-						<a href="https://github.com/martscastrillo/breaking-bad-seeker"><i class="fa-solid fa-code dev_logo"></i></a>
-						<a href="https://martscastrillo.github.io/breaking-bad-seeker/  "><i class="fa-regular fa-window-restore dev_logo"></i></a>
+						<a href="https://github.com/martscastrillo/breaking-bad-seeker"><i className="fa-solid fa-code dev_logo"></i></a>
+						<a href="https://martscastrillo.github.io/breaking-bad-seeker/"><i className="fa-regular fa-window-restore dev_logo"></i></a>
 					</span>
 
 				</div>
@@ -60,8 +60,8 @@ function Dev() {
 					<Link to="/Dev/MinionProfileCards" className="link header">
 						<img className="dev_img" src={pantalla3} alt="" /></Link>
 						<span>
-						<a href="https://github.com/martscastrillo/minions-profile-cards"><i class="fa-solid fa-code dev_logo"></i></a>
-						<a href="https://martscastrillo.github.io/minions-profile-cards/ "><i class="fa-regular fa-window-restore dev_logo"></i></a>
+						<a href="https://github.com/martscastrillo/minions-profile-cards"><i className="fa-solid fa-code dev_logo"></i></a>
+						<a href="https://martscastrillo.github.io/minions-profile-cards/"><i className="fa-regular fa-window-restore dev_logo"></i></a>
 					</span>
 					
 
@@ -71,8 +71,8 @@ function Dev() {
 					<img className="dev_img" src={pantalla2} alt="" />
 					</Link>
 					<span>
-						<a href="https://github.com/martscastrillo/awesome-profile-cards"><i class="fa-solid fa-code dev_logo"></i></a>
-						<a href="https://martscastrillo.github.io/awesome-profile-cards/ "><i class="fa-regular fa-window-restore dev_logo"></i></a>
+						<a href="https://github.com/martscastrillo/awesome-profile-cards"><i className="fa-solid fa-code dev_logo"></i></a>
+						<a href="https://martscastrillo.github.io/awesome-profile-cards/ "><i className="fa-regular fa-window-restore dev_logo"></i></a>
 					</span>
 				</div>
 				<div className='proyect_div'>
@@ -80,8 +80,8 @@ function Dev() {
 					<img className="dev_img" src={pantalla1} alt="" />	</Link>
 					
 					<span>
-						<a href="https://github.com/martscastrillo/rick-and-morty-character-finder"><i class="fa-solid fa-code dev_logo"></i></a>
-						<a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"><i class="fa-regular fa-window-restore dev_logo"></i></a>
+						<a href="https://github.com/martscastrillo/rick-and-morty-character-finder"><i className="fa-solid fa-code dev_logo"></i></a>
+						<a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"><i className="fa-regular fa-window-restore dev_logo"></i></a>
 					</span>
 				</div>
 				<div className='proyect_div'>
@@ -89,8 +89,8 @@ function Dev() {
 				<Link to="/Dev/Horoscopo" className="link header">
 					<img className="dev_img" src={pantalla6} alt="" /></Link>
 					<span>
-						<a href="https://github.com/martscastrillo/horoscope "><i class="fa-solid fa-code dev_logo"></i></a>
-						<a href="https://martscastrillo.github.io/horoscope/ "><i class="fa-regular fa-window-restore dev_logo"></i></a>
+						<a href="https://github.com/martscastrillo/horoscope "><i className="fa-solid fa-code dev_logo"></i></a>
+						<a href="https://martscastrillo.github.io/horoscope/ "><i className="fa-regular fa-window-restore dev_logo"></i></a>
 					</span>
 				</div>
 

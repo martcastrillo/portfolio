@@ -1,7 +1,9 @@
 
 import "../styles/App.scss";
 import { Routes, Route, Link,  NavLink } from "react-router-dom";
-import Dev from "./Dev";
+/* import {  useEffect,  useState } from "react"; */
+/* import projects from "../services/dataProjects.json"
+ */import Dev from "./Dev";
 import Graphic from "./Graphic";
 import Video from "./Video";
 import Contact from "./Contact";
@@ -14,8 +16,10 @@ import AwesomeProfileCards from "./projects/AwesomeProfileCards";
 import RickandMorty from "./projects/RickandMorty";
 import Horoscopo from "./projects/Horoscopo";
 function App() {
+
+
 	return (
-		<div className="App">
+		<div className="App" >
 		<header>
 {/* 		<div className="burguermenu"></div>	 */}
 		<ul className="navlist">
@@ -35,11 +39,11 @@ function App() {
 					video
 				</NavLink>
 			</li>
-		{/* 	<li>
+	<li>
 				<NavLink to="/Graphic" className="grid__item-link" id="contact-link">
 					graphic
 				</NavLink>
-			</li> */}
+			</li> 
 			<li>
 				<NavLink to="/Contact"	id="contact-link"  className="grid__item-link"				>
 					contact

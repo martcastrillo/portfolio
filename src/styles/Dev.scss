@@ -6,6 +6,7 @@
     justify-content: center;
     height: 100vh;
     background-color: #F8E0E0;
+   
 }
 .dev_img{
     margin-top: 30px;
@@ -14,12 +15,15 @@
     background-size: cover;
     width: 200px;
     border: 1px solid #6A7593;
+    border-radius: 6px;
+   
+    
     &:hover {
 		transform: scale(1.05, 1.05);
-		transition: transform 2s;
+		transition: transform 0.3s;
 	}
 	&:not(:hover) {
-		transition: transform 2s;
+		transition: transform 0.3s;
 	}
 }
 .dev_filter{
@@ -50,8 +54,12 @@
     font-size: 60px;
 }
 .line_project{
+  
     display: flex;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  flex-wrap: wrap;  width: 70%;
+  gap: 30px;
 
 }
 .proyect_div{

@@ -1,6 +1,8 @@
 import "../../styles/Project.scss";
 import pantalla6 from "../../images/pantallas_Capa-6.png";
 import { Link } from "react-router-dom";
+import datadev from "../../services/data_pr.json"
+
 function Horoscopo() {
   return (
     <div class='project_div'>

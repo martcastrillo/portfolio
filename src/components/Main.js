@@ -45,7 +45,7 @@ function Main() {
 			</div>
 			<Routes>
 				<Route path="/Dev" element={<Dev />}></Route>
-				<Route path="/Graphic" element={<Graphic />}></Route>
+			{/* 	<Route path="/Graphic" element={<Graphic />}></Route> */}
 				<Route path="/Video" element={<Video />}></Route>{" "}
 			</Routes>
 		</div>

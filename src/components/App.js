@@ -1,8 +1,8 @@
 import "../styles/App.scss";
 import { Routes, Route, Link, NavLink } from "react-router-dom";
 /* import {  useEffect,  useState } from "react"; */
-/* import projects from "../services/dataProjects.json"
- */ import Dev from "./Dev";
+/* import projects from "../services/dataProjects.json"; */ 
+import Dev from "./Dev";
 import Graphic from "./Graphic";
 import Video from "./Video";
 import Contact from "./Contact";
@@ -14,9 +14,10 @@ import MinionProfileCards from "./projects/MinionProfileCards";
 import AwesomeProfileCards from "./projects/AwesomeProfileCards";
 import RickandMorty from "./projects/RickandMorty";
 import Horoscopo from "./projects/Horoscopo";
-import data from "../services/data.json";
+import ArcadePlace from "./projects/Arcade";
+import datadev from "../services/data_pr.json";
 function App() {
-	console.log(data);
+	console.log(datadev);
 
 	return (
 		<div className="App">
@@ -39,13 +40,13 @@ function App() {
 						</NavLink>
 					</li>
 					<li>
-						<NavLink
+						{/* <NavLink
 							to="/Graphic"
 							className="grid__item-link"
 							id="contact-link"
 						>
 							graphic
-						</NavLink>
+						</NavLink> */}
 					</li>
 					<li>
 						<NavLink
@@ -81,6 +82,7 @@ function App() {
 				></Route>
 				<Route path="/Dev/RickandMorty" element={<RickandMorty />}></Route>
 				<Route path="/Dev/Horoscopo" element={<Horoscopo />}></Route>
+				<Route path="/Dev/ArcadePlace" element={<ArcadePlace />}></Route>
 			</Routes>
 			<footer className="page__footer">
 				<p className="footer">&copy; Marta Castrillo 2023</p>

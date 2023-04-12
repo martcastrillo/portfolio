@@ -1,6 +1,8 @@
 import "../../styles/Project.scss";
 import pantalla4 from "../../images/pantallas_Capa-4.png";
 import { Link } from "react-router-dom";
+import datadev from "../../services/data_pr.json"
+
 function BreakingBad() {
   return (
     <div class='project_div'>

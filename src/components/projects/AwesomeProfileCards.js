@@ -1,6 +1,8 @@
 import "../../styles/Project.scss";
 import pantalla2 from "../../images/pantallas_Capa-2.png";
 import { Link } from "react-router-dom";
+import datadev from "../../services/data_pr.json"
+
 function AwesomeProfileCards() {
   return (
     <div class='project_div'>

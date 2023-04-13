@@ -1,7 +1,8 @@
 import "../styles/Graphic.scss";
-import datagr from "../services/data_gr.json"
+/* import { Link } from "react-router-dom";
+import datagr from "../services/data_gr.json" */
 function Graphic() {
-  const htmlData = datagr.map((project) => {
+  /* const htmlData = datagr.map((project) => {
 
 		return (
 			<div className='proyect_div'>
@@ -13,7 +14,7 @@ function Graphic() {
 				</span>
 			</div>
 		)
-	});
+	}); */
     return (
       <div className='graphic_div'>
      
@@ -34,7 +35,7 @@ function Graphic() {
   <div className="box box-5"></div>
 </section>
      <div className='graphic_mini_div'>
-
+   {/*   {htmlData} */}
     {/*  <div className="card">
   <img src="https://images.pexels.com/photos/1248157/pexels-photo-1248157.jpeg?cs=srgb&dl=photo-of-galaxy-1248157.jpg&fm=jpg" className='img' alt=""/>
 </div>

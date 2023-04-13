@@ -15,9 +15,7 @@ import AwesomeProfileCards from "./projects/AwesomeProfileCards";
 import RickandMorty from "./projects/RickandMorty";
 import Horoscopo from "./projects/Horoscopo";
 import ArcadePlace from "./projects/Arcade";
-import datadev from "../services/data_pr.json";
 function App() {
-	console.log(datadev);
 
 	return (
 		<div className="App">

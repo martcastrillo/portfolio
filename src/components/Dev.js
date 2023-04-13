@@ -23,7 +23,7 @@ function Dev() {
 			</div>
 		)
 	});
-	console.log(htmlData);
+
 
 
 	return (

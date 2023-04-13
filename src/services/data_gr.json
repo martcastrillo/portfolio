@@ -1,0 +1,73 @@
+[
+	{
+		"grph_id": 1,
+		"name": "diseño editorial",
+		"tools": ["InDesign", "Photoshop"],
+		"desc": "Diseño tradicional de una revista de viajes, empleando el uso de máscaras, tanto en InDesign como en Photoshop, capas de ajuste y tipografías robustas y urbanas, muy con aire neoyorkino, aplicando el naranja, uno de los colores emblemáticos pertenecientes a la bandera de la ciudad.",
+		"img": []
+	},
+	{
+		"grph_id": 2,
+		"name": "diseño logo y etiquetado vino",
+		"tool": ["Illustrator"],
+		"desc": "Diseño de la identidad de marca desde cero, diseño del logo, etiquetado, el encapsulado y el packaging. Preoarando el logo de manera conrrecta con su aplicación en retícula. Y el uso del etiquetado, jugando con la acepción de arrebol, ha sido lo que ha marcado la gama cromática del diseño, siendo todos tonos posiblemente pertenecientes a una puesta de sol, asi como el relieve de las montañas que podemos encontrar al rededor el valle en el que se encuentra la bodega de nuestro vino.",
+		"img": []
+	},
+	{
+		"grph_id": 3,
+		"name": "diseño portada",
+		"tool": ["Photoshop"],
+		"desc": "Diseño de la cubierta del libro En el Bosque. Empleando el uso las herramientas de Photoshop, como el uso de capas de ajuste y modos de fusion para dar con ese efecto visual en el que se funde como si fuera parte de la niebla los ojos de la narradora rodeando el bosque presente, no solo en el titulo sino como parte del protagonismo del libro.",
+		"img": []
+	},
+	{
+		"grph_id": 4,
+		"name": "diseño campaña publicidad",
+		"tool": ["Illustrator"],
+		"desc": "Campaña publicitaria creada en torno a la creación de un caligrama como elemento principal de la composición, junto con una imagen de una playa desierta, y paradisiaca. El caligrama está compuesto por nombres de los destinos de playa más vendidos por Viajes el Corte Inglés formando así una palmera, el elemento playero por excelencia, para hacer más claro y acercar el mensaje de los destinos de playa posible.",
+		"img": []
+	},
+	{
+		"grph_id": 5,
+		"name": "diseño posters",
+		"tool": ["Illustrator"],
+		"desc": "Diseño minimalista de una serie de cartelería de series y peliculas, que se ha basado elementos básicos para su construcción, de modo que solo vemos líneas simples aplicadas a elementos que hacen referencia a algún momento o momentos emblemáticos de estas piezas audiovisuales.",
+		"img": []
+	},
+	{
+		"grph_id": 6,
+		"name": "diseño portada",
+		"tool": ["Photoshop"],
+		"desc": "Diseño de la cubierta del libro Geografía humana y otros poemas de Gloria Fuertes. Más allá del uso de las herramientas, que siempre supone un punto interesante, en ese caso destacaría el empleo de la creatividad para el diseño de la portada, se ha realizado en torno a la idea de la retórica visual, jugando con el concepto de mapa  topográfico, danfole el valor de la geografía, asi como en la parte en la que hace mencíon a lo humano aparece una mano, cambiando el mapa que forman nuestras huellas dactilares por un mapa real geográfico. En cuanto a las herramientas, se han usado vectores, máscaras, sombras, capas de ajuste y distintos ruidos para darle ese efecto.",
+		"img": []
+	},
+	{
+		"grph_id": 7,
+		"name": "diseño cartelería",
+		"tools": ["InDesign", "Photoshop"],
+		"desc": "Diseño de una línea de carteles para tratar de acercar el Museo de El Prado a la gente, dandole un toque moderno a las obras. Basando la comunicacion de la campaña en torno a Tenemos mucho que ver, jugando con el empleo de un collage en torno los ojos y demás elementos de las obras más caracteristicas de los artistas mayoritarios expuestos en la coleccion del museo, he creó ademas de la linea de cartelería, adaptaciones en torno a banderolas, bolsa para la tienda de regalos, o postales de venta tambien en la tienda.",
+		"img": []
+	},
+	{
+		"grph_id": 8,
+		"name": "diseño campaña publicidad",
+		"tool": ["Illustrator"],
+		"desc": "Creación de una campaña de publicidad para Play Station 5, tratando de combinar lo más moderno, en este caso, el producto, con vanguardias de las que se bebe en el diseño gráfico actual, pero aplicandolas de manera más estricta. Empleo del estilo Plakatsill y de la corriente Bauhaus.",
+		"img": []
+	},
+	{
+		"grph_id": 9,
+		"name": "diseño cuadros decorativos",
+		"tool": ["Photoshop"],
+		"desc": "Diseño sencillo, realizado con una idea unificada, en la que trabajando con máscaras de capa, he conseguido sustituir las cabezas de nuestros personajes por lo que podrían estar gestualizando con su rostro, en lugar de eso, representan los gestos faciales, lo que podrían estar haciendo sus manos acompañando a ese gesto.",
+		"img": []
+	},
+	{
+		"grph_id": 9,
+		"name": "diseño camisetas",
+		"tool": ["Illustrator"],
+		"desc": "Diseño de camisetas minimalistas para Somos Desierto empleo trazados vectoriales sencillos, asemejandose al trazado de mano alzada.",
+		"img": []
+	}
+	
+]

@@ -32,7 +32,7 @@
   {
     "prj_id": 2,
     "name": "Git Branch Heros",
-    "technologies": "html y css",
+    "technologies": "html",
     "img": "https://user-images.githubusercontent.com/112553001/231568388-d8eded9f-b316-4128-9037-8430c0ede51c.png",
     "url_code": "https://github.com/martscastrillo/git-branch-heros-landing-page",
     "url_page": "https://martscastrillo.github.io/git-branch-heros-landing-page/",
@@ -62,7 +62,7 @@
   {
     "prj_id": 5,
     "name": "Awesome Profile Cards",
-    "technologies": "react",
+    "technologies": "node",
     "img": "https://user-images.githubusercontent.com/112553001/231567868-6d504e01-7b65-4f11-878d-6b6a4937b859.png",
     "url_code": "https://github.com/martscastrillo/awesome-profile-cards",
     "url_page": "https://martscastrillo.github.io/awesome-profile-cards/",

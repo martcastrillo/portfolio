@@ -1,8 +1,8 @@
 import landing from "../images/landing.png";
 import { Routes, Route, NavLink } from "react-router-dom";
 import Dev from "./Dev";
-import Graphic from "./Graphic";
-import Video from "./Video";
+/* import Graphic from "./Graphic";
+ */import Video from "./Video";
 
 import "../styles/Index.scss";
 function Main() {

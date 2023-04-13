@@ -1,24 +1,22 @@
-
-.dev_div{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #F8E0E0;
-   
+.dev_div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #f8e0e0;
 }
-.dev_img{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    background-image: url(./../images/pantallas_Capa-7.png)no-repeat center center fixed;
-    background-size: cover;
-    width: 200px;
-    border: 1px solid #6A7593;
-    border-radius: 6px;
-   
-    
-    &:hover {
+.dev_img {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-image: url(./../images/pantallas_Capa-7.png) no-repeat center
+		center fixed;
+	background-size: cover;
+	width: 200px;
+	border: 1px solid #6a7593;
+	border-radius: 6px;
+
+	&:hover {
 		transform: scale(1.05, 1.05);
 		transition: transform 0.3s;
 	}
@@ -26,45 +24,48 @@
 		transition: transform 0.3s;
 	}
 }
-.dev_filter{
-    display: flex;
-    gap: 20px;
-    &_option{
-        color: #6A7593;
-        font-size: 14px;
-        background-color:#FDBEBE;;
-        padding: 6px;
-        border: 1px solid #6A7593;
-    }
-}
-.dev_logo{
-    width: 35px;
-    margin: 6px;
-    padding: 6px;
-    color: #6A7593;
-
-    &:hover {
-		color: #FDBEBE;
-	
+.dev_filter {
+	display: flex;
+	gap: 20px;
+	&_option {
+		color: #6a7593;
+		font-size: 14px;
+		background-color: #fdbebe;
+		padding: 6px;
+		border: 1px solid #6a7593;
 	}
 }
-.dev_title{
-    text-transform: uppercase;
-    color: #6A7593;
-    font-size: 60px;
-}
-.line_project{
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  flex-wrap: wrap;  width: 70%;
-  gap: 30px;
+.dev_logo {
+	width: 35px;
+	margin: 6px;
+	padding: 6px;
+	color: #6a7593;
 
+	&:hover {
+		color: #fdbebe;
+	}
 }
-.proyect_div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.dev_title {
+	text-transform: uppercase;
+	color: #6a7593;
+	font-size: 60px;
+    margin-bottom: 70px;
+   
+}
+.line_project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 70%;
+	gap: 30px;
+    @media all and (min-width: 768px) {
+        width:50%;
+    }
     
+}
+.proyect_div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

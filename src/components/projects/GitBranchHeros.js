@@ -1,7 +1,7 @@
 import "../../styles/Project.scss";
 import pantalla7 from "../../images/pantallas_Capa-7.png";
-import datadev from "../../services/data_pr.json"
-
+/* import datadev from "../../services/data_pr.json"
+ */
 import { Link } from "react-router-dom";
 function GitBranchHeros() {
   return (

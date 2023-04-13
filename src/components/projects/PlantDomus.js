@@ -1,8 +1,8 @@
 import "../../styles/Project.scss";
 import pantalla5 from "../../images/pantallas_Capa-5.png";
 import { Link } from "react-router-dom";
-import datadev from "../../services/data_pr.json"
-
+/* import datadev from "../../services/data_pr.json"
+ */
 function PlantDomus() {
   return (
     <div class='project_div'>

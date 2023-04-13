@@ -38,13 +38,13 @@ function App() {
 						</NavLink>
 					</li>
 					<li>
-						{/* <NavLink
+						<NavLink
 							to="/Graphic"
 							className="grid__item-link"
 							id="contact-link"
 						>
 							graphic
-						</NavLink> */}
+						</NavLink>
 					</li>
 					<li>
 						<NavLink

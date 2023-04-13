@@ -25,8 +25,7 @@
 
 
 .card{
- 
- /*    margin-top: 200px!important; */
+
     width:200px;
     margin: auto;
     height: 200px;
@@ -106,6 +105,7 @@
   }
   
   .box {
+
     width: calc((100% / var(--childs)));
     box-sizing: border-box;
     height: min(30vmin, 250px);
@@ -118,6 +118,7 @@
   }
   
   .box:hover {
+
     width: calc((100% / (var(--childs) - 2)));
   }
   
@@ -126,21 +127,41 @@
   }
   
   .box-1 {
-    background-image: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4xBy25QhsXKnSDTBvupM7k/46fc453dc3f9434167601fdfe1ed9a22/meta-image-general.jpg");
+   
+   background-image: url("https://user-images.githubusercontent.com/112553001/231889779-3e509a8a-e4be-4e60-abcd-500c256e0dbb.png");
   }
   
   .box-2 {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/975/453/226/counter-strike-cs-go-wallpaper-preview.jpg");
+    background-image: url("https://user-images.githubusercontent.com/112553001/231886927-179ff3b2-e8a5-4207-8531-28d14bf7948f.png");
   }
   
   .box-3 {
-    background-image: url("https://images.unsplash.com/photo-1630481331483-336ed0bac999?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHhib3glMjBjb250cm9sbGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-image: url("https://user-images.githubusercontent.com/112553001/231887998-3181a928-a128-4f8a-b1d7-8660ee83844d.png");
   }
   
   .box-4 {
-    background-image: url("https://cdn.dribbble.com/users/2976379/screenshots/5751717/battlefield_v.jpg");
+    background-image: url("https://user-images.githubusercontent.com/112553001/231891574-7d1cc925-5e8c-4cd4-ae2a-15e5a0fc7ab3.png");
   }
   
   .box-5 {
-    background-image: url("https://a-static.besthdwallpaper.com/tom-clancy-s-ghost-recon-wildlands-wallpaper-2800x2100-2655_28.jpg");
+    background-image: url("https://user-images.githubusercontent.com/112553001/231891225-d7725d88-3da1-4fae-bef6-0fe92f01d1c2.png");
+  }
+  .box-6 {
+    background-image: url("https://user-images.githubusercontent.com/112553001/231890419-ee370077-6a50-40cd-8218-9ed5dd6d2169.png");
+  }
+  
+  .box-7 {
+    background-image: url("https://user-images.githubusercontent.com/112553001/231890424-7fa9cc31-4fda-49b7-8655-9e77851e7cd4.png");
+  }
+  
+  .box-8 {
+    background-image: url("https://user-images.githubusercontent.com/112553001/231889107-b87a0ed1-8559-45f4-9c00-8ad67d165d85.png");
+  }
+  
+  .box-9 {
+    background-image: url("https://user-images.githubusercontent.com/112553001/231889985-5152091a-81da-4af0-b145-00c0da4c6046.png");
+  }
+  
+  .box-10 {
+    background-image: url("https://user-images.githubusercontent.com/112553001/231890992-29b964f0-04aa-41ba-bb11-4c407acf2aa6.png");
   }

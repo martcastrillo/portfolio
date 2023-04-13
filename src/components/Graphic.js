@@ -1,20 +1,7 @@
 import "../styles/Graphic.scss";
-/* import { Link } from "react-router-dom";
-import datagr from "../services/data_gr.json" */
-function Graphic() {
-  /* const htmlData = datagr.map((project) => {
 
-		return (
-			<div className='proyect_div'>
-				<Link to={project.link} className="link header">
-					<img className="dev_img" src={project.img} alt="" /></Link>
-				<span>
-					<a href={project.url_code}><i className="fa-solid fa-code dev_logo"></i></a>
-					<a href={project.url_page}><i className="fa-regular fa-window-restore dev_logo"></i></a>
-				</span>
-			</div>
-		)
-	}); */
+function Graphic() {
+
     return (
       <div className='graphic_div'>
      

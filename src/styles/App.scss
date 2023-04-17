@@ -28,9 +28,10 @@ header {
 	list-style: none;
 	justify-content: center;
 	align-items: center;
-
+	
 }
-.listed{
+
+.listed {
 	position: absolute;
 	right: 30px;
 	display: flex;
@@ -38,11 +39,12 @@ header {
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
-	
+
 }
+
 .burger {
 
-	margin-top: 22px;
+	margin-top: 20px;
 	width: 24px;
 	height: 24px;
 	cursor: pointer;
@@ -51,12 +53,12 @@ header {
 
 .burger span {
 	width: 100%;
-	height: 2.5px;
+	height: 3px;
 	background-color: #F8E0E0;
 	border-radius: 12px;
 	display: block;
 	transition: background-color 0.5s ease-in-out;
-	
+
 }
 
 .burger span::before,
@@ -67,8 +69,8 @@ header {
 	display: block;
 	transition: all 0.5s ease-in-out;
 	border-radius: 12px;
-	height: 2.5px;
-	
+	height: 3px;
+
 }
 
 .burger span::before {
@@ -163,7 +165,7 @@ header {
 .grid__item-link-name {
 	position: absolute;
 	left: 20px;
-	
+
 	color: #FDBEBE;
 	text-decoration: none;
 	text-transform: capitalize;
@@ -191,12 +193,7 @@ header {
 	background-color: #FDBEBE;
 }
 
-
-
-
-
-  .hidden {
+.hidden {
 	display: none;
 	
 }
-

@@ -31,14 +31,14 @@ function App() {
 		if (active === true) {
 			setActive(false);
 			setBurger("burger");
-			setList("hidden list");
+			setList("hidden ");
 
 		}
 		if (active === false) {
 
 			setActive(true);
 			setBurger("burger active");
-			setList("list");
+			setList("list focus");
 		}
 	};
 	return (

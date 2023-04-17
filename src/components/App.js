@@ -1,7 +1,8 @@
 import "../styles/App.scss";
+import { useState } from "react";
 import { Routes, Route, Link, NavLink } from "react-router-dom";
-/* import {  useEffect,  useState } from "react"; */
-/* import projects from "../services/dataProjects.json"; */ 
+
+/* import projects from "../services/dataProjects.json"; */
 import Dev from "./Dev";
 import Graphic from "./Graphic";
 import Video from "./Video";
@@ -15,48 +16,82 @@ import AwesomeProfileCards from "./projects/AwesomeProfileCards";
 import RickandMorty from "./projects/RickandMorty";
 import Horoscopo from "./projects/Horoscopo";
 import ArcadePlace from "./projects/Arcade";
-function App() {
 
+
+
+function App() {
+	const [active, setActive] = useState(false);
+	const [burger, setBurger] = useState("burger");
+	const [list, setList] = useState("list hidden");
+
+	/* const [filterByTool, setFilterByTool] = useState("All");
+	 */
+	const handleBurger = (ev) => {
+		ev.preventDefault();
+		if (active === true) {
+			setActive(false);
+			setBurger("burger");
+			setList("hidden list");
+
+		}
+		if (active === false) {
+
+			setActive(true);
+			setBurger("burger active");
+			setList("list");
+		}
+	};
 	return (
 		<div className="App">
 			<header>
-				{/* 		<div className="burguermenu"></div>	 */}
-				<ul className="navlist">
-					<li>
-						<NavLink to="*" className="grid__item-link" id="contact-link">
-							home
-						</NavLink>
-					</li>
-					<li>
-						<NavLink to="/Dev" className="grid__item-link" id="contact-link">
-							dev
-						</NavLink>
-					</li>
-					<li>
-						<NavLink to="/Video" className="grid__item-link" id="contact-link">
-							video
-						</NavLink>
-					</li>
-					<li>
-						<NavLink
-							to="/Graphic"
-							className="grid__item-link"
-							id="contact-link"
-						>
-							graphic
-						</NavLink>
-					</li>
-					<li>
-						<NavLink
-							to="/Contact"
-							id="contact-link"
-							className="grid__item-link"
-						>
-							contact
-						</NavLink>
-					</li>
-					<li className="grid__item-link-name">Marta Castrillo - Portfolio</li>
-				</ul>
+				<nav className="navlist">
+				<NavLink to="*" className="grid__item-link-name" id="contact-link">
+				Marta Castrillo - Portfolio
+							</NavLink>
+					
+					<span className="listed">
+					<ul className={list}>
+					
+
+					{/* 	<li>
+							<NavLink to="*" className="grid__item-link" id="contact-link">
+								home
+							</NavLink>
+						</li> */}
+						<li>
+							<NavLink to="/Dev" className="grid__item-link" id="contact-link">
+								dev
+							</NavLink>
+						</li>
+						<li>
+							<NavLink to="/Video" className="grid__item-link" id="contact-link">
+								video
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to="/Graphic"
+								className="grid__item-link"
+								id="contact-link"
+							>
+								graphic
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to="/Contact"
+								id="contact-link"
+								className="grid__item-link"
+							>
+								contact
+							</NavLink>
+						</li>
+
+					</ul>
+					<div className={burger} onClick={handleBurger}>
+						<span></span>
+					</div></span>
+				</nav>
 			</header>
 
 			<Link to="*" className="link header"></Link>

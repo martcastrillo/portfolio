@@ -34,6 +34,8 @@ function Dev() {
 			<h2 className='dev_filter_option' onClick={handleClick}  id='javascript'>java script</h2>
 			<h2 className='dev_filter_option' onClick={handleClick}  id='react'>react</h2>
 			<h2 className='dev_filter_option' onClick={handleClick}  id='node'>node js - express</h2>
+						<h2 className='dev_filter_option' onClick={handleClick}  id='angular'>angular</h2>
+
 			</div>   */}
 			<div className='line_project'>	{htmlData}</div>
 

@@ -78,5 +78,15 @@
     "url_page": "https://martscastrillo.github.io/horoscope/",
     "link": "/Dev/Horoscopo",
     "desc": ""
+  },
+  {
+    "prj_id": 8,
+    "name": "Cam Shop",
+    "technologies": "angular",
+    "img": "https://user-images.githubusercontent.com/112553001/233784995-b7c9db31-b8bb-4501-a325-e82e2b8de87a.png",
+    "url_code": "https://github.com/martscastrillo/my_store_angular",
+    "url_page": "https://my-store-angular-d90e9.web.app",
+    "link": "/Dev/Horoscopo",
+    "desc": ""
   }
 ]

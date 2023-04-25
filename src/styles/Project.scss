@@ -23,12 +23,17 @@
 p{
     width:300px;
     margin-bottom: 10px;
+    text-align: justify;
+ 
+  
+
 }
 .prj_logo{
     color: #000000;
 
     width: 30px;
     margin-right: 10px;
+    transform: translateY(20px);
     &:hover {
 		color: #FDBEBE;
 	
@@ -40,6 +45,7 @@ p{
     display: flex;
     flex-direction: column;
   justify-content: space-between;
+
 }
 .detail_icons{
    

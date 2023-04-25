@@ -9,8 +9,10 @@ function MinionProfileCards() {
       <h2 className="project_title">Minion Profile Cards</h2>
       <div className="div_project">
         <img className="project_img" src={pantalla3} alt="" />
-       <div className="project_detail">          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolorum facilis nam sunt quo itaque autem sit eligendi illum, asperiores inventore nostrum tempore expedita voluptatem quis consequuntur! Optio, atque alias!
-          </p>
+       <div className="project_detail">     
+       <p>Desarrollo de una página con JavaScript que genera tarjetas de visita, donde se incluyen datos como el nombre, teléfono, correco electrónico, LinkedIn y GitHub. Se pueden elegir distintas paletas de color y se puede compartir mediante twitter la tarjeta.</p>
+
+       <span> HTML · CSS · JS</span>
           <span className="detail_icons">
           <a href="https://github.com/martscastrillo/minions-profile-cards"><i class="fa-solid fa-code prj_logo"></i></a>
           <a href="https://martscastrillo.github.io/minions-profile-cards/ "><i class="fa-regular fa-window-restore prj_logo"></i></a>

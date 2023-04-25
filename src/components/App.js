@@ -16,6 +16,7 @@ import AwesomeProfileCards from "./projects/AwesomeProfileCards";
 import RickandMorty from "./projects/RickandMorty";
 import Horoscopo from "./projects/Horoscopo";
 import ArcadePlace from "./projects/Arcade";
+import Camera from "./projects/Camera";
 
 
 
@@ -116,6 +117,7 @@ function App() {
 				<Route path="/Dev/RickandMorty" element={<RickandMorty />}></Route>
 				<Route path="/Dev/Horoscopo" element={<Horoscopo />}></Route>
 				<Route path="/Dev/ArcadePlace" element={<ArcadePlace />}></Route>
+				<Route path="/Dev/CameraShop" element={<Camera />}></Route>
 			</Routes>
 			<footer className="page__footer">
 				<p className="footer">&copy; Marta Castrillo 2023</p>

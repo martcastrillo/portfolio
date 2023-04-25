@@ -53,7 +53,7 @@
     "prj_id": 6,
     "name": "Rick And Morty Character Finder",
     "technologies": "react",
-    "img": "https://user-images.githubusercontent.com/112553001/231567205-20696e82-d205-44b6-9457-a0b396131ff7.png",
+    "img": "https://user-images.githubusercontent.com/112553001/234398211-c14057df-e901-42fc-b9c3-b621290a2188.png",
     "url_code": "https://github.com/martscastrillo/rick-and-morty-character-finder",
     "url_page": "https://martscastrillo.github.io/rick-and-morty-character-finder/",
     "link": "/Dev/RickandMorty",
@@ -76,7 +76,7 @@
     "img": "https://user-images.githubusercontent.com/112553001/231562048-10ea8282-356a-4181-91e9-930af40303aa.png",
     "url_code": "https://github.com/martscastrillo/horoscope",
     "url_page": "https://martscastrillo.github.io/horoscope/",
-    "link": "/Dev/Horoscopo",
+    "link": "/Dev/CameraShop",
     "desc": ""
   },
   {
@@ -86,7 +86,7 @@
     "img": "https://user-images.githubusercontent.com/112553001/233784995-b7c9db31-b8bb-4501-a325-e82e2b8de87a.png",
     "url_code": "https://github.com/martscastrillo/my_store_angular",
     "url_page": "https://my-store-angular-d90e9.web.app",
-    "link": "/Dev/Horoscopo",
+    "link": "/Dev/CameraShop",
     "desc": ""
   }
 ]

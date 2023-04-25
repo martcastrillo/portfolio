@@ -7,7 +7,7 @@
 	background-color: #f8e0e0;
 }
 .dev_img {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	background-image: url(./../images/pantallas_Capa-7.png) no-repeat center
 		center fixed;
@@ -19,6 +19,7 @@
 	&:hover {
 		transform: scale(1.05, 1.05);
 		transition: transform 0.3s;
+		opacity: 0.5;
 	}
 	&:not(:hover) {
 		transition: transform 0.3s;
@@ -37,7 +38,6 @@
 }
 .dev_logo {
 	width: 35px;
-	margin: 6px;
 	padding: 6px;
 	color: #6a7593;
 
@@ -49,8 +49,8 @@
 	text-transform: uppercase;
 	color: #6a7593;
 	font-size: 60px;
-    margin-bottom: 70px;
-   
+/*     margin-bottom: 50px;
+ */   
 }
 .line_project {
 	display: flex;
@@ -58,7 +58,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 70%;
-	gap: 30px;
+	gap: 20px;
     @media all and (min-width: 768px) {
         width:50%;
     }

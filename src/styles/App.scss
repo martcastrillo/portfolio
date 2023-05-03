@@ -12,6 +12,8 @@
 header {
 	position: fixed;
 	top: 0;
+    background-color: rgb(31, 38, 85);
+    height: 40px;
 
 }
 
@@ -28,6 +30,7 @@ header {
 	list-style: none;
 	justify-content: center;
 	align-items: center;
+	transition: opacity 0.3s linear 2s; 
 	
 }
 
@@ -165,7 +168,7 @@ header {
 .grid__item-link-name {
 	position: absolute;
 	left: 20px;
-
+	padding: 8px 0 0 3rem;
 	color: #FDBEBE;
 	text-decoration: none;
 	text-transform: capitalize;

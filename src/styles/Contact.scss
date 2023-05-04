@@ -6,7 +6,7 @@
     justify-content: center;
     height: 100vh;
     background-color: #F8E0E0;
-    padding-top: 100px;
+    padding-top: 50px;
     @media screen and (min-width: 1280px) {
         gap: 100px;
         padding-top: 0;
@@ -14,7 +14,7 @@
 	}
 }
 .contact_img{
-    height:  430px;
+    height:  300px;
     @media screen and (min-width: 1280px) {
         height:  530px;
 	
@@ -23,10 +23,12 @@
 .contact_title{
     text-transform: uppercase;
     color: #6A7593;
-    font-size: 60px;
-    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
     @media screen and (min-width: 1280px) {
         margin-bottom: 200px;
+        font-size: 60px;
 	
 	}
 }
@@ -42,7 +44,7 @@
 }
 .mailto{
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 20px;
     align-self: center;
     background-color: #E074A8;
     color: white;
@@ -51,6 +53,10 @@
     &:hover {
       color: #E074A8;
         background-color: white;
+	}
+    @media screen and (min-width: 1280px) {
+        margin-top: 30px;
+	
 	}
 }
 .fa-envelope{

@@ -48,6 +48,9 @@ function App() {
 					</NavLink>
 
 					<span className="listed">
+						<div>
+
+					
 						<ul className={list}>
 							<li>
 								<NavLink
@@ -86,6 +89,7 @@ function App() {
 								</NavLink>
 							</li>
 						</ul>
+						</div>
 						<div className={burger} onClick={handleBurger}>
 							<span></span>
 						</div>

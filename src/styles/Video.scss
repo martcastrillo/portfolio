@@ -8,7 +8,11 @@
     background-color: #F8E0E0;
 }
 .video_img{
-    width: 830px;
+    width: 430px;
+    @media screen and (min-width: 1280px) {
+        width: 830px;
+	
+	}
 }
 .video_title{
     text-transform: uppercase;

@@ -81,11 +81,11 @@
   },
   {
     "prj_id": 8,
-    "name": "Cam Shop",
+    "name": "Happy Shop",
     "technologies": "angular",
-    "img": "https://user-images.githubusercontent.com/112553001/233784995-b7c9db31-b8bb-4501-a325-e82e2b8de87a.png",
-    "url_code": "https://github.com/martscastrillo/my_store_angular",
-    "url_page": "https://my-store-angular-d90e9.web.app",
+    "img": "https://user-images.githubusercontent.com/112553001/236207010-13ad21ac-bd9b-4c70-aaff-692a102175d8.png",
+    "url_code": "https://github.com/martscastrillo/happy_shop",
+    "url_page": "https://happy-store-5d570.web.app/",
     "link": "/Dev/CameraShop",
     "desc": ""
   }

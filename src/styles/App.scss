@@ -18,10 +18,7 @@ header {
 }
 
 .navlist {
-
-
 	width: 100vw;
-
 }
 
 
@@ -30,21 +27,21 @@ header {
 	list-style: none;
 	justify-content: center;
 	align-items: center;
-	transition: opacity 0.3s linear 2s; 
 	
+
 }
 
 .listed {
 	position: absolute;
 	right: 30px;
 	display: flex;
+	flex-direction: row;
 	list-style: none;
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
 
 }
-
 .burger {
 
 	margin-top: 20px;

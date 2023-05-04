@@ -18,8 +18,6 @@ import Horoscopo from "./projects/Horoscopo";
 import ArcadePlace from "./projects/Arcade";
 import Camera from "./projects/Camera";
 
-
-
 function App() {
 	const [active, setActive] = useState(false);
 	const [burger, setBurger] = useState("burger");
@@ -32,66 +30,66 @@ function App() {
 		if (active === true) {
 			setActive(false);
 			setBurger("burger");
-			setList("hidden ");
-
+			setList("list hidden");
 		}
 		if (active === false) {
-
 			setActive(true);
 			setBurger("burger active");
-			setList("list focus");
+			setList("list trans");
 		}
+
 	};
 	return (
 		<div className="App">
 			<header>
 				<nav className="navlist">
-				<NavLink to="*" className="grid__item-link-name" id="contact-link">
-				Marta Castrillo - Portfolio
-							</NavLink>
-					
+					<NavLink to="*" className="grid__item-link-name" id="contact-link">
+						Marta Castrillo - Portfolio
+					</NavLink>
+
 					<span className="listed">
-					<ul className={list}>
-					
-
-					{/* 	<li>
-							<NavLink to="*" className="grid__item-link" id="contact-link">
-								home
-							</NavLink>
-						</li> */}
-						<li>
-							<NavLink to="/Dev" className="grid__item-link" id="contact-link">
-								dev
-							</NavLink>
-						</li>
-						<li>
-							<NavLink to="/Video" className="grid__item-link" id="contact-link">
-								video
-							</NavLink>
-						</li>
-						<li>
-							<NavLink
-								to="/Graphic"
-								className="grid__item-link"
-								id="contact-link"
-							>
-								graphic
-							</NavLink>
-						</li>
-						<li>
-							<NavLink
-								to="/Contact"
-								id="contact-link"
-								className="grid__item-link"
-							>
-								contact
-							</NavLink>
-						</li>
-
-					</ul>
-					<div className={burger} onClick={handleBurger}>
-						<span></span>
-					</div></span>
+						<ul className={list}>
+							<li>
+								<NavLink
+									to="/Dev"
+									className="grid__item-link"
+									id="contact-link"
+								>
+									dev
+								</NavLink>
+							</li>
+							<li>
+								<NavLink
+									to="/Video"
+									className="grid__item-link"
+									id="contact-link"
+								>
+									video
+								</NavLink>
+							</li>
+							<li>
+								<NavLink
+									to="/Graphic"
+									className="grid__item-link"
+									id="contact-link"
+								>
+									graphic
+								</NavLink>
+							</li>
+							<li>
+								<NavLink
+									to="/Contact"
+									id="contact-link"
+									className="grid__item-link"
+								>
+									contact
+								</NavLink>
+							</li>
+						</ul>
+						<div className={burger} onClick={handleBurger}>
+							<span></span>
+						</div>
+					</span>
 				</nav>
 			</header>
 

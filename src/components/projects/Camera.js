@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 function Camera() {
   return (
     <div class='project_div'>
-      <h2 className="project_title">Camera Shop</h2>
+      <h2 className="project_title">Happy Shop</h2>
       <div className="div_project">
         <img className="project_img" src="https://user-images.githubusercontent.com/112553001/236207010-13ad21ac-bd9b-4c70-aaff-692a102175d8.png" alt="" />
        <div className="project_detail">  
-       <p>Desarrollo de los primeros pasos de un proyecto en angular. Mediante un array se pintan los distintos elementos del stock de la tienda virtual. En desarrollo.
+       <p>Desarrollo de los primeros pasos de un proyecto en angular. Mediante una API se pintan los distintos elementos del stock de la tienda virtual. En desarrollo.
        </p>
        <span> HTML · CSS · ANGULAR</span>   
           <span className="detail_icons">

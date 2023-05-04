@@ -7,9 +7,12 @@
 	align-items: center;
 }
 .project_title {
-	margin-bottom: 90px;
+	margin-bottom: 40px;
 	color: #6a7593;
 	text-transform: uppercase;
+    @media screen and (min-width: 768px) {
+		margin-bottom: 90px;
+	}
 }
 .div_project {
 	display: flex;
@@ -20,14 +23,14 @@
 	}
 }
 .project_img {
-	width: 400px;
+	width: 350px;
 	border: 1px solid #6a7593;
 	@media screen and (min-width: 768px) {
 		width: 600px;
 	}
 }
 p {
-	width: 380px;
+	width: 340px;
 	margin-bottom: 10px;
 	text-align: justify;
 	@media screen and (min-width: 768px) {
@@ -51,7 +54,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 280px;
+	height: 200px;
 	@media screen and (min-width: 768px) {
 		height: 350px;
 	}

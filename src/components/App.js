@@ -35,7 +35,7 @@ function App() {
 		if (active === false) {
 			setActive(true);
 			setBurger("burger active");
-			setList("list trans");
+			setList("list mob");
 		}
 
 	};
@@ -47,11 +47,10 @@ function App() {
 						Marta Castrillo - Portfolio
 					</NavLink>
 
-					<span className="listed">
-						<div>
-
+					<span className="listed" onClick={handleBurger}>
 					
-						<ul className={list}>
+
+<ul  className={list}>
 							<li>
 								<NavLink
 									to="/Dev"
@@ -89,8 +88,11 @@ function App() {
 								</NavLink>
 							</li>
 						</ul>
-						</div>
-						<div className={burger} onClick={handleBurger}>
+
+					
+						
+						
+						<div className={burger} >
 							<span></span>
 						</div>
 					</span>

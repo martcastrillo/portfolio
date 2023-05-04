@@ -1,15 +1,12 @@
 .contact_div {
 	display: flex;
-	gap: 10px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
 	background-color: #f8e0e0;
-
 	@media screen and (min-width: 1280px) {
 		gap: 100px;
-		padding-top: 0;
 		flex-direction: row;
 	}
 }
@@ -33,8 +30,6 @@
 .contact_mini_div {
 	display: flex;
 	flex-direction: column;
-
-	
 	@media screen and (min-width: 1280px) {
 		height: 630px;
 	}

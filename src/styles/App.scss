@@ -1,27 +1,23 @@
 * {
-	font-family: 'Bodoni Moda', serif;
+	font-family: "Bodoni Moda", serif;
 
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-
 }
 
 header {
 	position: fixed;
 	top: 0;
-    background-color: rgb(31, 38, 85);
-    height: 40px;
-
+	background-color: rgb(31, 38, 85);
+	height: 40px;
 }
 
 .navlist {
 	width: 100vw;
-	
 }
-
 
 .list {
 	display: flex;
@@ -29,12 +25,13 @@ header {
 	justify-content: flex-start;
 	/* align-items: flex-end;
 	flex-direction: column; */
-	background-color:  rgb(31, 38, 85);
-	gap:30px;
-/* 	padding-right:20px ; */
-/* 	@media screen and (min-width: 768px) { */
-		flex-direction: row;align-items: center;
-		/* padding-right:10px ;
+	background-color: rgb(31, 38, 85);
+	gap: 30px;
+	/* 	padding-right:20px ; */
+	/* 	@media screen and (min-width: 768px) { */
+	flex-direction: row;
+	align-items: center;
+	/* padding-right:10px ;
 	} */
 }
 
@@ -47,11 +44,8 @@ header {
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
-	
-	
 }
 .burger {
-
 	margin-top: 20px;
 	width: 24px;
 	height: 24px;
@@ -62,23 +56,21 @@ header {
 .burger span {
 	width: 100%;
 	height: 3px;
-	background-color: #F8E0E0;
+	background-color: #f8e0e0;
 	border-radius: 12px;
 	display: block;
 	transition: background-color 0.5s ease-in-out;
-
 }
 
 .burger span::before,
 .burger span::after {
 	content: "";
 	width: 100%;
-	background-color: #F8E0E0;
+	background-color: #f8e0e0;
 	display: block;
 	transition: all 0.5s ease-in-out;
 	border-radius: 12px;
 	height: 3px;
-
 }
 
 .burger span::before {
@@ -96,20 +88,18 @@ header {
 
 .burger.active span::before {
 	transform: rotateZ(45deg) translateY(0);
-
 }
 
 .burger.active span::after {
 	transform: rotateZ(-45deg) translateY(0);
 }
 
-
 .body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	justify-content: center;
-	background-color: #F8E0E0;
+	background-color: #f8e0e0;
 	width: 100vw;
 	height: 100vh;
 }
@@ -117,7 +107,6 @@ header {
 .landing-image {
 	width: 600px;
 }
-
 
 .project-image {
 	width: 300px;
@@ -140,15 +129,15 @@ header {
 	font-weight: 700;
 	font-size: 0.95rem;
 	position: relative;
-	pointer-events: auto;	/* padding: 0 0 0.2rem;
+	pointer-events: auto; /* padding: 0 0 0.2rem;
 	margin: 0 0 0 3rem; */
-	color: #F8E0E0;
+	color: #f8e0e0;
 	&:focus,
 	&:hover {
-		color: #E074A8;
+		color: #e074a8;
 	}
 	&::before {
-		content: '';
+		content: "";
 		position: absolute;
 		background: currentColor;
 		width: 80%;
@@ -164,19 +153,17 @@ header {
 		opacity: 1;
 		transform: scale3d(1, 1, 1);
 	}
-	
 }
 
 .grid__item-link-name {
 	position: absolute;
 	left: 20px;
 	padding: 8px 0 0 3rem;
-	color: #FDBEBE;
+	color: #fdbebe;
 
 	text-decoration: none;
 	text-transform: capitalize;
 	font-weight: 400;
-
 }
 
 .footer {
@@ -194,13 +181,12 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
-	color: #E074A8;
+	color: #e074a8;
 	text-align: center;
 	font-weight: 400;
-	background-color: #FDBEBE;
+	background-color: #fdbebe;
 }
 
 .hidden {
 	display: none;
-	
 }

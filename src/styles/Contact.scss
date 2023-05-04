@@ -1,64 +1,61 @@
-.contact_div{
-    display:flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #F8E0E0;
-    padding-top: 50px;
-    @media screen and (min-width: 1280px) {
-        gap: 100px;
-        padding-top: 0;
-        flex-direction: row;
+.contact_div {
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #f8e0e0;
+	padding-top: 50px;
+	@media screen and (min-width: 1280px) {
+		gap: 100px;
+		padding-top: 0;
+		flex-direction: row;
 	}
 }
-.contact_img{
-    height:  300px;
-    @media screen and (min-width: 1280px) {
-        height:  530px;
-	
+.contact_img {
+	height: 300px;
+	@media screen and (min-width: 1280px) {
+		height: 530px;
 	}
 }
-.contact_title{
-    text-transform: uppercase;
-    color: #6A7593;
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 20px;
-    @media screen and (min-width: 1280px) {
-        margin-bottom: 200px;
-        font-size: 60px;
-	
+.contact_title {
+	text-transform: uppercase;
+	color: #6a7593;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+	@media screen and (min-width: 1280px) {
+		margin-bottom: 200px;
+		font-size: 60px;
 	}
 }
-.contact_mini_div{
-    display: flex;
-    flex-direction: column;
-  
-    height:  630px;
+.contact_mini_div {
+	display: flex;
+	flex-direction: column;
+
+	height: 630px;
 }
-.text{
-    width: 300px;
-    text-align: justify;
+.text {
+	width: 300px;
+	text-align: justify;
 }
-.mailto{
-    text-transform: uppercase;
-    margin-top: 20px;
-    align-self: center;
-    background-color: #E074A8;
-    color: white;
-    text-align: center;
-    width: 200px;
-    &:hover {
-      color: #E074A8;
-        background-color: white;
+.mailto {
+	text-transform: uppercase;
+	margin-top: 20px;
+	align-self: center;
+	background-color: #e074a8;
+	color: white;
+	text-align: center;
+	width: 200px;
+	&:hover {
+		color: #e074a8;
+		background-color: white;
 	}
-    @media screen and (min-width: 1280px) {
-        margin-top: 30px;
-	
+	@media screen and (min-width: 1280px) {
+		margin-top: 30px;
 	}
 }
-.fa-envelope{
-    margin-left: 12px;
+.fa-envelope {
+	margin-left: 12px;
 }

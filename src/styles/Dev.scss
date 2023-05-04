@@ -23,16 +23,14 @@
 	&:not(:hover) {
 		transition: transform 0.3s;
 	}
-	
+
 	@media screen and (min-width: 768px) {
 		width: 145px;
 		margin-top: 50px;
-	
 	}
 	@media screen and (min-width: 1280px) {
 		width: 180px;
 		margin-top: 50px;
-	
 	}
 }
 .dev_filter {
@@ -63,12 +61,11 @@
 	text-transform: uppercase;
 	color: #6a7593;
 	font-size: 40px;
-/*     margin-bottom: 50px;
- */   
- @media screen and (min-width: 768px) {
-	font-size: 60px;
-
-}
+	/*     margin-bottom: 50px;
+ */
+	@media screen and (min-width: 768px) {
+		font-size: 60px;
+	}
 }
 .line_project {
 	display: flex;
@@ -77,10 +74,9 @@
 	flex-wrap: wrap;
 	width: 70%;
 	gap: 20px;
-    @media all and (min-width: 768px) {
-        width:50%;
-    }
-    
+	@media all and (min-width: 768px) {
+		width: 50%;
+	}
 }
 .proyect_div {
 	display: flex;

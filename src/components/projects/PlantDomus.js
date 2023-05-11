@@ -8,8 +8,8 @@ function PlantDomus() {
     <div class='project_div'>
       <h2 className="project_title">Plant Domus</h2>
       <div className="div_project">
-      <a href="https://martscastrillo.github.io/plant-domus-landing-page/">    <img className="project_imgdes" src="https://user-images.githubusercontent.com/112553001/214275593-eca700d3-a4f6-485b-b7ab-2e1d1eaf5134.png" alt="" /></a>
-      <a href="https://martscastrillo.github.io/plant-domus-landing-page/">    <img className="project_imgmov" src="https://user-images.githubusercontent.com/112553001/214275820-032513b0-d936-4c37-8977-1d14d448ce7c.png" alt="" /></a>
+      <a href="https://martscastrillo.github.io/plant-domus-landing-page/">    <img className="project_imgdes" src="https://github.com/martscastrillo/martscastrillo/assets/112553001/c7c74cb5-cf44-410d-b3d6-715dd1881896" alt="" /></a>
+      <a href="https://martscastrillo.github.io/plant-domus-landing-page/">    <img className="project_imgmov" src="https://github.com/martscastrillo/martscastrillo/assets/112553001/36955d05-5cee-4265-ab99-571c22c8d6d2" alt="" /></a>
     
        <div className="project_detail">        
        <p>El proyecto es una web desarrollada con con html y css, la cual está preparada para su uso responsive.

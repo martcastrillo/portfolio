@@ -6,8 +6,8 @@ function RickandMorty() {
     <div class='project_div'>
       <h2 className="project_title">Rick and Morty finder</h2>
       <div className="div_project">
-      <a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"> <img className="project_imgdes" src="https://user-images.githubusercontent.com/112553001/234398211-c14057df-e901-42fc-b9c3-b621290a2188.png" alt="" /> </a>
-      <a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"> <img className="project_imgmov" src="https://user-images.githubusercontent.com/112553001/236614066-448e0c06-44d1-4961-b01b-c3697ec08c4c.png" alt="" /> </a>
+      <a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"> <img className="project_imgdes" src="https://github.com/martscastrillo/martscastrillo/assets/112553001/450a3f6d-c1a8-44c5-b0d5-aba689009d3e" alt="" /> </a>
+      <a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"> <img className="project_imgmov" src="https://github.com/martscastrillo/martscastrillo/assets/112553001/3ba6f530-bb7b-46b5-8344-5b4a8d14e66b" alt="" /> </a>
        <div className="project_detail">        
        <p>Es una web desarrollada con React en la cual se pueda buscar y filtrar personajes de la serie Rick y Morty por diferentes criterios,al hacer click sobre el personaje aparecerá enrutada una tarjeta con detalles del mismo.
        </p>

@@ -5,7 +5,8 @@ function ArcadePlace() {
     <div class='project_div'>
       <h2 className="project_title">Arcade Place</h2>
       <div className="div_project">
-        <img className="project_img" src="https://user-images.githubusercontent.com/112553001/231568489-67b5c75c-eeca-451b-a86a-164ac5e5f497.png" alt="" />
+      <a href="https://martscastrillo.github.io/arcade_place"> <img className="project_imgdes" src="https://user-images.githubusercontent.com/112553001/234314554-a1aa9f1d-ff87-46f5-af91-609ce20e440e.png" alt="" /> </a> 
+   <a href="https://martscastrillo.github.io/arcade_place"> <img className="project_imgmov" src="https://user-images.githubusercontent.com/112553001/234314581-aa164b1b-30a1-4b85-a9b8-a184fa13f90e.png" alt="" /> </a>    
        <div className="project_detail">         
         <p>Desarrollo de una página sencilla pero que engloba varios mini proyectos preparados en JavaScript Vainilla.</p>
         <span> HTML · CSS · JS</span>

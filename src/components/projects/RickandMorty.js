@@ -6,7 +6,8 @@ function RickandMorty() {
     <div class='project_div'>
       <h2 className="project_title">Rick and Morty finder</h2>
       <div className="div_project">
-        <img className="project_img" src="https://user-images.githubusercontent.com/112553001/234398211-c14057df-e901-42fc-b9c3-b621290a2188.png" alt="" />
+      <a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"> <img className="project_imgdes" src="https://user-images.githubusercontent.com/112553001/234398211-c14057df-e901-42fc-b9c3-b621290a2188.png" alt="" /> </a>
+      <a href="https://martscastrillo.github.io/rick-and-morty-character-finder/"> <img className="project_imgmov" src="https://user-images.githubusercontent.com/112553001/236614066-448e0c06-44d1-4961-b01b-c3697ec08c4c.png" alt="" /> </a>
        <div className="project_detail">        
        <p>Es un buscador de personajes de la serie Rick y Morty, preparado para buscar y filtrar,
         después de haber filtrado el personaje que buscas puedes hacer click sobre él aparecerá enrutada una tarjeta de detalle del personaje en concreto.

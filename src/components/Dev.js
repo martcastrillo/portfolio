@@ -28,7 +28,7 @@ function Dev() {
 				<Link to={project.link} className="link header">
 					<img className="dev_img" src={project.img} alt="" />
 				</Link>
-				<span>
+				<span className="proyect_div--icons">
 					<a href={project.url_code}>
 						<i className="fa-solid fa-code dev_logo"></i>
 					</a>

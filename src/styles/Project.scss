@@ -6,29 +6,49 @@
 	justify-content: center;
 	align-items: center;
 }
+
 .project_title {
-	margin-bottom: 40px;
+ 
 	color: #6a7593;
 	text-transform: uppercase;
-    @media screen and (min-width: 768px) {
+
+	@media screen and (min-width: 768px) {
 		margin-bottom: 90px;
 	}
 }
+
 .div_project {
 	display: flex;
 	gap: 40px;
 	flex-direction: column;
+
 	@media screen and (min-width: 768px) {
 		flex-direction: row;
 	}
 }
-.project_img {
-	width: 350px;
-	border: 1px solid #6a7593;
+
+.project_imgdes {
+	display: none;
+
 	@media screen and (min-width: 768px) {
+		display: flex;
 		width: 600px;
+		border: 1px solid #6a7593;
 	}
 }
+
+.project_imgmov {
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 250px;
+	border: 1px solid #6a7593;
+
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+
 p {
 	width: 340px;
 	margin-bottom: 10px;
@@ -37,6 +57,7 @@ p {
 		width: 300px;
 	}
 }
+
 .prj_logo {
 	color: #000000;
 
@@ -46,23 +67,34 @@ p {
 	&:hover {
 		color: #fdbebe;
 	}
+
 	@media screen and (min-width: 768px) {
 		transform: translateY(20px);
 	}
 }
+
 .project_detail {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 200px;
+	gap: 25px;
+	margin: 12px;
+
 	@media screen and (min-width: 768px) {
-		height: 350px;
+		margin-top: -5px;
+		gap: 55px;
 	}
 }
+
 .detail_icons {
-	display: flex;
-	align-items: center;
+	display: none;
+
+	@media screen and (min-width: 768px) {
+		display: flex;
+		align-items: center;
+	}
 }
+
 .link {
 	color: black;
 	font-size: 14px;

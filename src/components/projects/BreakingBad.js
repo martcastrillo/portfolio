@@ -8,7 +8,8 @@ function BreakingBad() {
     <div class='project_div'>
       <h2 className="project_title">Breaking Bad</h2>
       <div className="div_project">
-        <img className="project_img" src={pantalla4} alt="" />
+        <a href="https://github.com/martscastrillo/breaking-bad-seeker">  <img className="project_imgdes" src="https://user-images.githubusercontent.com/112553001/213775041-6264da5d-88e3-413e-9df3-939756cefd9e.png" alt="" /></a>
+        <a href="https://github.com/martscastrillo/breaking-bad-seeker">  <img className="project_imgmov" src="https://user-images.githubusercontent.com/112553001/236430816-1f4cafbd-e363-4c7b-8287-deb06d143ae7.png" alt="" /></a>
        <div className="project_detail">       
        <p>Desarrollo con JavaScript de un buscador de personajes de una famosa serie, trae los datos de una API, y mediante del filtrado se pueden encontrar los personajes. También se pueden indicar los personajes favoritos. 
        </p>

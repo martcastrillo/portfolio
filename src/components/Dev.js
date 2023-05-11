@@ -54,7 +54,7 @@ function Dev() {
 					html - css
 				</h2>
 				<h2 className="dev_filter_option" onClick={handleClick} id="javascript">
-					java script
+					javascript
 				</h2>
 				<h2 className="dev_filter_option" onClick={handleClick} id="react">
 					react

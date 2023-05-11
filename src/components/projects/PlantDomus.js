@@ -12,11 +12,7 @@ function PlantDomus() {
       <a href="https://martscastrillo.github.io/plant-domus-landing-page/">    <img className="project_imgmov" src="https://user-images.githubusercontent.com/112553001/214275820-032513b0-d936-4c37-8977-1d14d448ce7c.png" alt="" /></a>
     
        <div className="project_detail">        
-       <p>El proyecto es una web funciona básicamente con html y css. Es una web con una única página preparada para su uso responsive.
-
-
-
- 
+       <p>El proyecto es una web desarrollada con con html y css, la cual está preparada para su uso responsive.
        </p>
        <span> HTML · CSS</span>
           <span className="detail_icons">

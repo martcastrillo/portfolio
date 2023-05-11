@@ -53,8 +53,9 @@ p {
 	width: 340px;
 	margin-bottom: 10px;
 	text-align: justify;
+
 	@media screen and (min-width: 768px) {
-		width: 300px;
+		width: 400px;
 	}
 }
 
@@ -82,7 +83,7 @@ p {
 
 	@media screen and (min-width: 768px) {
 		margin-top: -5px;
-		gap: 55px;
+		gap: 35px;
 	}
 }
 

@@ -24,9 +24,11 @@ function Contact() {
                       </li>
                       
                   </ul>
-        <a href="mailto:mart.castrillo@gmail.com" title="Reel" target="_blank" rel="noreferrer" className='mailto'>
+                  
+        <a href="mailto:mart.castrillo@gmail.com" title="mail" target="_blank" rel="noreferrer" className='mailto'>
 				send me an email<i className="fa-regular fa-envelope"></i></a>
-			
+			  <a href="CVMartaCastrilloGil.pdf" title="download" target="_blank" rel="noreferrer" className='mailto' download>
+				download my cv<i class="fa-regular fa-file"></i></a>
         </div>
      
  

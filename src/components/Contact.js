@@ -3,8 +3,10 @@ import contact from "../images/contact.png";
 function Contact() {
     return (
       <div className='contact_div'>
+        ©
      <img className="contact_img" src={contact} alt="" />
         <div className='contact_mini_div'>
+     
         <h1 className="contact_title">contact</h1>
         <p className="text">Gracias por llegar hasta aquí. Como has podido ver, la página está en construcción, pero si quieres que colaboremos ya sabes, haz caso al mensajito de más abajo.</p>
         <ul class="icon-list">
